@@ -348,6 +348,8 @@ async def 가짜테스트(ctx):
 # 🔥 봇 실행
 # ============================
 import os
-bot.run(os.getenv("TOKEN"))
+TOKEN = os.getenv("DISCORD_TOKEN")
+bot.run(TOKEN)
+
 
 
